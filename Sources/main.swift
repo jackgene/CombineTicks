@@ -11,6 +11,8 @@ func run() {
         .store(in: &subscriptions)
     
     RunLoop.main.run()
+    // Works as expected when there's a reference to subscriptions at the end of the block
+//    let subscriptions2 = subscriptions
 }
 
 run()
